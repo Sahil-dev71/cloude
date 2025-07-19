@@ -75,6 +75,13 @@ const Header: React.FC = () => {
                     >
                       {t('fenceInstallation')}
                     </Link>
+                    <Link 
+                      to="/fence-straightening-repair" 
+                      className="block px-4 py-2 text-sm text-dark-700 hover:bg-orange-50 hover:text-orange-600 transition-colors"
+                      onClick={closeServicesDropdown}
+                    >
+                      {t('fenceStraighteningRepair')}
+                    </Link>
                     <a 
                       href="#railings" 
                       className="block px-4 py-2 text-sm text-dark-700 hover:bg-orange-50 hover:text-orange-600 transition-colors"
@@ -207,6 +214,9 @@ const Header: React.FC = () => {
                   </a>
                   <Link to="/fence-installation" className="block py-1 text-sm text-dark-600 hover:text-orange-500 transition-colors" onClick={() => setIsMenuOpen(false)}>
                     {t('fenceInstallation')}
+                  </Link>
+                  <Link to="/fence-straightening-repair" className="block py-1 text-sm text-dark-600 hover:text-orange-500 transition-colors" onClick={() => setIsMenuOpen(false)}>
+                    {t('fenceStraighteningRepair')}
                   </Link>
                   <a href="#railings" className="block py-1 text-sm text-dark-600 hover:text-orange-500 transition-colors">
                     {t('railings')}

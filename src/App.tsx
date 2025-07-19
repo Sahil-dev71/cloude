@@ -4,6 +4,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import Header from './components/layout/Header';
 import Home from './components/ui/Home';
 import FenceInstallation from './components/ui/FenceInstallation';
+import FenceStraighteningAndRepair from './components/ui/FenceStraighteningAndRepair';
 import Footer from './components/layout/Footer';
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
                           <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/fence-installation" element={<FenceInstallation />} />
+                <Route path="/fence-straightening-repair" element={<FenceStraighteningAndRepair />} />
               </Routes>
           </main>
           <Footer />
