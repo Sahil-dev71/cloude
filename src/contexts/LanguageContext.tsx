@@ -9,6 +9,7 @@ interface Translations {
   fences: string;
   fenceInstallation: string;
   fenceStraighteningRepair: string;
+  temporaryFenceRental: string;
   railings: string;
   gates: string;
   poolFences: string;
@@ -78,6 +79,14 @@ interface Translations {
   unrivaledServiceDescription2: string;
   galleryMessage: string;
   
+  // Temporary Fence Rental Page
+  temporaryFenceRentalHeroTitle: string;
+  temporaryFenceRentalHeroSubtitle: string;
+  solutionAdaptedTitle: string;
+  solutionAdaptedDescription1: string;
+  solutionAdaptedDescription2: string;
+  contactInfoMessage: string;
+  
   // Footer Section
   footerDescription: string;
   serviceAreas: string;
@@ -105,6 +114,7 @@ const translations: Record<string, Translations> = {
     fences: 'Fences',
     fenceInstallation: 'Fence Installation',
     fenceStraighteningRepair: 'Fence Straightening and Repair',
+    temporaryFenceRental: 'Temporary Fence Rental',
     railings: 'Railings',
     gates: 'Gates',
     poolFences: 'Pool Fences',
@@ -174,6 +184,14 @@ const translations: Record<string, Translations> = {
     unrivaledServiceDescription2: 'Choose excellence and rediscover the beauty and security of your outdoor space.',
     galleryMessage: 'Don\'t let a damaged fence ruin your landscape. Get a free quote!',
     
+    // Temporary Fence Rental Page
+    temporaryFenceRentalHeroTitle: 'Temporary fence rental',
+    temporaryFenceRentalHeroSubtitle: 'PLANT FENCE',
+    solutionAdaptedTitle: 'OUR SOLUTION ADAPTED TO YOUR PROJECT',
+    solutionAdaptedDescription1: 'Provide immediate protection for your events or construction sites with our temporary fencing. Robust and flexible, they adapt to any terrain, ensuring security and peace of mind.',
+    solutionAdaptedDescription2: 'Whether you need short-term security for an event or long-term protection for a construction project, our temporary fences provide reliable solutions.',
+    contactInfoMessage: 'Please do not hesitate to contact us by phone or email for any additional information regarding this service.',
+    
     // Footer Section
     footerDescription: 'Professional fencing services in Ottawa-Gatineau. Quality installations, repairs, and maintenance for residential and commercial properties.',
     serviceAreas: 'Service Areas',
@@ -199,6 +217,7 @@ const translations: Record<string, Translations> = {
     fences: 'Clôtures',
     fenceInstallation: 'Installation de Clôtures',
     fenceStraighteningRepair: 'Redressement et Réparation de Clôtures',
+    temporaryFenceRental: 'Location de Clôtures Temporaires',
     railings: 'Garde-corps',
     gates: 'Portails',
     poolFences: 'Clôtures de Piscine',
@@ -267,6 +286,14 @@ const translations: Record<string, Translations> = {
     unrivaledServiceDescription1: 'Chez Clôture Plante, nous transformons et revitalisons les clôtures à Ottawa et Gatineau, apportant vitesse et expertise à chaque projet. Imaginez votre clôture, redressée et restaurée, paraissant comme neuve, défiant le temps et les éléments.',
     unrivaledServiceDescription2: 'Choisissez l\'excellence et redécouvrez la beauté et la sécurité de votre espace extérieur.',
     galleryMessage: 'Ne laissez pas une clôture endommagée ruiner votre paysage. Obtenez un devis gratuit!',
+    
+    // Temporary Fence Rental Page
+    temporaryFenceRentalHeroTitle: 'Location de clôtures temporaires',
+    temporaryFenceRentalHeroSubtitle: 'PLANT FENCE',
+    solutionAdaptedTitle: 'NOTRE SOLUTION ADAPTÉE À VOTRE PROJET',
+    solutionAdaptedDescription1: 'Fournissez une protection immédiate pour vos événements ou chantiers de construction avec nos clôtures temporaires. Robuste et flexible, elles s\'adaptent à tout terrain, assurant sécurité et tranquillité d\'esprit.',
+    solutionAdaptedDescription2: 'Que vous ayez besoin d\'une sécurité à court terme pour un événement ou d\'une protection à long terme pour un projet de construction, nos clôtures temporaires offrent des solutions fiables.',
+    contactInfoMessage: 'N\'hésitez pas à nous contacter par téléphone ou par email pour toute information supplémentaire concernant ce service.',
     
     // Footer Section
     footerDescription: 'Services de clôture professionnels à Ottawa-Gatineau. Installations de qualité, réparations et entretien pour propriétés résidentielles et commerciales.',
