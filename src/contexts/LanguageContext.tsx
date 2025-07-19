@@ -7,6 +7,7 @@ interface Translations {
   services: string;
   ourServices: string;
   fences: string;
+  fenceInstallation: string;
   railings: string;
   gates: string;
   poolFences: string;
@@ -65,6 +66,7 @@ const translations: Record<string, Translations> = {
     services: 'Services',
     ourServices: 'Our Services',
     fences: 'Fences',
+    fenceInstallation: 'Fence Installation',
     railings: 'Railings',
     gates: 'Gates',
     poolFences: 'Pool Fences',
@@ -121,6 +123,7 @@ const translations: Record<string, Translations> = {
     services: 'Services',
     ourServices: 'Nos Services',
     fences: 'Clôtures',
+    fenceInstallation: 'Installation de Clôtures',
     railings: 'Garde-corps',
     gates: 'Portails',
     poolFences: 'Clôtures de Piscine',
