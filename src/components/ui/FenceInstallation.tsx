@@ -24,10 +24,10 @@ const FenceInstallation: React.FC = () => {
         <div className="relative z-10 flex items-center justify-center h-full text-center">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-orange-500 text-xl md:text-2xl font-bold mb-4 tracking-wider">
-              PLANT FENCE
+              {t('fenceInstallationHeroSubtitle')}
             </div>
             <h1 className="text-5xl md:text-6xl font-semibold text-white mb-8">
-              Fence installation
+              {t('fenceInstallationHeroTitle')}
             </h1>
             <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium text-base transition-colors">
               CONTACT US
@@ -42,14 +42,14 @@ const FenceInstallation: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl font-semibold text-gray-800 mb-8">
-                CLOSE IN STYLE
+                {t('closeInStyleTitle')}
               </h2>
               <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                 <p>
-                  Located in the heart of Ottawa and Gatineau, Clôture Plante redefines your outdoor space with our expertise in fencing installation, particularly with tempered glass, a specialty of ours.
+                  {t('closeInStyleDescription1')}
                 </p>
                 <p>
-                  Whether you're looking to secure your pool or beautify your garden, our custom solutions adapt to every residential or commercial need.
+                  {t('closeInStyleDescription2')}
                 </p>
               </div>
               
@@ -60,7 +60,7 @@ const FenceInstallation: React.FC = () => {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-6">
-                  Let's make your property a fortress.
+                  {t('fortressTitle')}
                 </h3>
                 <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors">
                   CONTACT US
@@ -83,7 +83,7 @@ const FenceInstallation: React.FC = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-semibold text-gray-800 text-center mb-16">
-            THE PLANT FENCE PROMISE
+            {t('plantFencePromiseTitle')}
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -95,7 +95,7 @@ const FenceInstallation: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                Unique expertise in tempered glass fencing
+                {t('temperedGlassExpertise')}
               </h3>
             </div>
 
@@ -107,7 +107,7 @@ const FenceInstallation: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                Variety of products for different budgets
+                {t('varietyProducts')}
               </h3>
             </div>
 
@@ -120,7 +120,7 @@ const FenceInstallation: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                Team of experienced installers
+                {t('experiencedTeam')}
               </h3>
             </div>
 
@@ -132,7 +132,7 @@ const FenceInstallation: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                Commitment to quality and your satisfaction
+                {t('qualityCommitment')}
               </h3>
             </div>
 
@@ -144,7 +144,7 @@ const FenceInstallation: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                Customized solutions for each project
+                {t('customSolutions')}
               </h3>
             </div>
 
@@ -173,14 +173,14 @@ const FenceInstallation: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <h2 className="text-4xl font-semibold mb-8">
-                Our commitment: your satisfaction
+                {t('commitmentTitle')}
               </h2>
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  At Clôture Plante, our expertise translates into perfectly aligned fences that withstand the elements without warping or sagging over time.
+                  {t('commitmentDescription1')}
                 </p>
                 <p>
-                  For impeccable installation and unparalleled customer service, the choice is clear: Clôture Plante.
+                  {t('commitmentDescription2')}
                 </p>
               </div>
             </div>
@@ -238,7 +238,7 @@ const FenceInstallation: React.FC = () => {
           </div>
 
           <h2 className="text-4xl font-semibold text-gray-800 text-center mb-8">
-            Your project deserves the best. Let's talk!
+            {t('projectShowcaseTitle')}
           </h2>
 
           <div className="text-center">

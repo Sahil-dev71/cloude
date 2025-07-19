@@ -42,6 +42,42 @@ interface Translations {
   ctaDescription: string;
   contactUs: string;
   
+  // Fence Installation Page
+  fenceInstallationHeroTitle: string;
+  fenceInstallationHeroSubtitle: string;
+  closeInStyleTitle: string;
+  closeInStyleDescription1: string;
+  closeInStyleDescription2: string;
+  fortressTitle: string;
+  plantFencePromiseTitle: string;
+  temperedGlassExpertise: string;
+  varietyProducts: string;
+  experiencedTeam: string;
+  qualityCommitment: string;
+  customSolutions: string;
+  commitmentTitle: string;
+  commitmentDescription1: string;
+  commitmentDescription2: string;
+  projectShowcaseTitle: string;
+  
+  // Fence Straightening and Repair Page
+  fenceStraighteningHeroTitle: string;
+  fenceStraighteningHeroSubtitle: string;
+  restoreStrengthTitle: string;
+  restoreStrengthDescription1: string;
+  restoreStrengthDescription2: string;
+  fenceLikeNewTitle: string;
+  choosingTeamTitle: string;
+  executionSpeed: string;
+  expertTeam: string;
+  organizedStructure: string;
+  fastDelivery: string;
+  fifteenYearGuarantee: string;
+  unrivaledServiceTitle: string;
+  unrivaledServiceDescription1: string;
+  unrivaledServiceDescription2: string;
+  galleryMessage: string;
+  
   // Footer Section
   footerDescription: string;
   serviceAreas: string;
@@ -102,6 +138,42 @@ const translations: Record<string, Translations> = {
     ctaDescription: 'Contact us today for a free consultation and quote. Our team is ready to bring your fencing vision to life.',
     contactUs: 'Contact Us',
     
+    // Fence Installation Page
+    fenceInstallationHeroTitle: 'Fence installation',
+    fenceInstallationHeroSubtitle: 'PLANT FENCE',
+    closeInStyleTitle: 'CLOSE IN STYLE',
+    closeInStyleDescription1: 'Located in the heart of Ottawa and Gatineau, Clôture Plante redefines your outdoor space with our expertise in fencing installation, particularly with tempered glass, a specialty of ours.',
+    closeInStyleDescription2: 'Whether you\'re looking to secure your pool or beautify your garden, our custom solutions adapt to every residential or commercial need.',
+    fortressTitle: 'Let\'s make your property a fortress.',
+    plantFencePromiseTitle: 'THE PLANT FENCE PROMISE',
+    temperedGlassExpertise: 'Unique expertise in tempered glass fencing',
+    varietyProducts: 'Variety of products for different budgets',
+    experiencedTeam: 'Team of experienced installers',
+    qualityCommitment: 'Commitment to quality and your satisfaction',
+    customSolutions: 'Customized solutions for each project',
+    commitmentTitle: 'Our commitment: your satisfaction',
+    commitmentDescription1: 'At Clôture Plante, our expertise translates into perfectly aligned fences that withstand the elements without warping or sagging over time.',
+    commitmentDescription2: 'For impeccable installation and unparalleled customer service, the choice is clear: Clôture Plante.',
+    projectShowcaseTitle: 'Your project deserves the best. Let\'s talk!',
+    
+    // Fence Straightening and Repair Page
+    fenceStraighteningHeroTitle: 'Fence straightening and repair',
+    fenceStraighteningHeroSubtitle: 'PLANT FENCE',
+    restoreStrengthTitle: 'RESTORE THE STRENGTH AND BEAUTY OF YOUR FENCE',
+    restoreStrengthDescription1: 'Clôture Plante restores the strength and aesthetics of your fences thanks to our specialized straightening and repair service in Ottawa and Gatineau.',
+    restoreStrengthDescription2: 'Whether it\'s a fence that has sagging over time or been damaged by bad weather, our fast and efficient intervention ensures the longevity and beauty of your fence, with a 15-year guarantee on materials.',
+    fenceLikeNewTitle: 'A FENCE LIKE NEW STARTS HERE!',
+    choosingTeamTitle: 'CHOOSING OUR TEAM MEANS CHOOSING:',
+    executionSpeed: 'Exceptional execution speed thanks to our state-of-the-art equipment.',
+    expertTeam: 'A team of experts with years of experience.',
+    organizedStructure: 'An organized structure for maximum efficiency.',
+    fastDelivery: 'Fast delivery, for uncompromising satisfaction.',
+    fifteenYearGuarantee: 'A 15-year guarantee on the materials we use.',
+    unrivaledServiceTitle: 'A fence like new, unrivaled service',
+    unrivaledServiceDescription1: 'At Clôture Plante, we transform and revitalize fences in Ottawa and Gatineau, bringing speed and expertise to every project. Imagine your fence, straightened and restored, looking like new, defying time and the elements.',
+    unrivaledServiceDescription2: 'Choose excellence and rediscover the beauty and security of your outdoor space.',
+    galleryMessage: 'Don\'t let a damaged fence ruin your landscape. Get a free quote!',
+    
     // Footer Section
     footerDescription: 'Professional fencing services in Ottawa-Gatineau. Quality installations, repairs, and maintenance for residential and commercial properties.',
     serviceAreas: 'Service Areas',
@@ -159,6 +231,42 @@ const translations: Record<string, Translations> = {
     ctaTitle: 'Prêt à Commencer Votre Projet?',
     ctaDescription: 'Contactez-nous aujourd\'hui pour une consultation gratuite et un devis. Notre équipe est prête à donner vie à votre vision de clôture.',
     contactUs: 'Nous Contacter',
+    
+    // Fence Installation Page
+    fenceInstallationHeroTitle: 'Installation de clôtures',
+    fenceInstallationHeroSubtitle: 'PLANT FENCE',
+    closeInStyleTitle: 'FERMEZ EN STYLE',
+    closeInStyleDescription1: 'Située au cœur d\'Ottawa et Gatineau, Clôture Plante redéfinit votre espace extérieur avec notre expertise en installation de clôtures, particulièrement avec le verre trempé, notre spécialité.',
+    closeInStyleDescription2: 'Que vous cherchiez à sécuriser votre piscine ou à embellir votre jardin, nos solutions personnalisées s\'adaptent à tous les besoins résidentiels ou commerciaux.',
+    fortressTitle: 'Faisons de votre propriété une forteresse.',
+    plantFencePromiseTitle: 'LA PROMESSE PLANT FENCE',
+    temperedGlassExpertise: 'Expertise unique en clôtures de verre trempé',
+    varietyProducts: 'Variété de produits pour différents budgets',
+    experiencedTeam: 'Équipe d\'installateurs expérimentés',
+    qualityCommitment: 'Engagement envers la qualité et votre satisfaction',
+    customSolutions: 'Solutions personnalisées pour chaque projet',
+    commitmentTitle: 'Notre engagement: votre satisfaction',
+    commitmentDescription1: 'Chez Clôture Plante, notre expertise se traduit par des clôtures parfaitement alignées qui résistent aux éléments sans se déformer ou s\'affaisser au fil du temps.',
+    commitmentDescription2: 'Pour une installation impeccable et un service client inégalé, le choix est clair: Clôture Plante.',
+    projectShowcaseTitle: 'Votre projet mérite le meilleur. Parlons-en!',
+    
+    // Fence Straightening and Repair Page
+    fenceStraighteningHeroTitle: 'Redressement et réparation de clôtures',
+    fenceStraighteningHeroSubtitle: 'PLANT FENCE',
+    restoreStrengthTitle: 'RESTAUREZ LA FORCE ET LA BEAUTÉ DE VOTRE CLÔTURE',
+    restoreStrengthDescription1: 'Clôture Plante restaure la force et l\'esthétique de vos clôtures grâce à notre service spécialisé de redressement et de réparation à Ottawa et Gatineau.',
+    restoreStrengthDescription2: 'Qu\'il s\'agisse d\'une clôture qui s\'est affaissée au fil du temps ou qui a été endommagée par le mauvais temps, notre intervention rapide et efficace assure la longévité et la beauté de votre clôture, avec une garantie de 15 ans sur les matériaux.',
+    fenceLikeNewTitle: 'UNE CLÔTURE COMME NEUVE COMMENCE ICI!',
+    choosingTeamTitle: 'CHOISIR NOTRE ÉQUIPE SIGNIFIE CHOISIR:',
+    executionSpeed: 'Une vitesse d\'exécution exceptionnelle grâce à notre équipement de pointe.',
+    expertTeam: 'Une équipe d\'experts avec des années d\'expérience.',
+    organizedStructure: 'Une structure organisée pour une efficacité maximale.',
+    fastDelivery: 'Livraison rapide, pour une satisfaction sans compromis.',
+    fifteenYearGuarantee: 'Une garantie de 15 ans sur les matériaux que nous utilisons.',
+    unrivaledServiceTitle: 'Une clôture comme neuve, un service inégalé',
+    unrivaledServiceDescription1: 'Chez Clôture Plante, nous transformons et revitalisons les clôtures à Ottawa et Gatineau, apportant vitesse et expertise à chaque projet. Imaginez votre clôture, redressée et restaurée, paraissant comme neuve, défiant le temps et les éléments.',
+    unrivaledServiceDescription2: 'Choisissez l\'excellence et redécouvrez la beauté et la sécurité de votre espace extérieur.',
+    galleryMessage: 'Ne laissez pas une clôture endommagée ruiner votre paysage. Obtenez un devis gratuit!',
     
     // Footer Section
     footerDescription: 'Services de clôture professionnels à Ottawa-Gatineau. Installations de qualité, réparations et entretien pour propriétés résidentielles et commerciales.',

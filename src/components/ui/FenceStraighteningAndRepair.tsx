@@ -21,10 +21,10 @@ const FenceStraighteningAndRepair: React.FC = () => {
         <div className="relative z-10 flex items-center justify-center h-full text-center">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-orange-500 text-xl md:text-2xl font-bold mb-4 tracking-wider">
-              PLANT FENCE
+              {t('fenceStraighteningHeroSubtitle')}
             </div>
             <h1 className="text-5xl md:text-6xl font-semibold text-white mb-8">
-              Fence straightening and repair
+              {t('fenceStraighteningHeroTitle')}
             </h1>
             <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium text-base transition-colors">
               CONTACT US
@@ -40,18 +40,18 @@ const FenceStraighteningAndRepair: React.FC = () => {
             <div className="flex flex-col h-full">
               {/* Top Section - Restore Strength and Beauty */}
               <div className="flex-1 max-w-full">
-                <h2 className="text-4xl font-semibold text-gray-800 mb-4 leading-tight">
-                  RESTORE THE STRENGTH AND BEAUTY OF YOUR FENCE
-                </h2>
-                <div className="w-20 h-1 bg-orange-500 mb-8"></div>
-                <div className="space-y-4 text-gray-700 text-base leading-relaxed w-full">
-                  <p className="w-full">
-                    Clôture Plante restores the strength and aesthetics of your fences thanks to our specialized straightening and repair service in Ottawa and Gatineau.
-                  </p>
-                  <p className="w-full">
-                    Whether it's a fence that has sagging over time or been damaged by bad weather, our fast and efficient intervention ensures the longevity and beauty of your fence, with a 15-year guarantee on materials.
-                  </p>
-                </div>
+                              <h2 className="text-4xl font-semibold text-gray-800 mb-4 leading-tight">
+                {t('restoreStrengthTitle')}
+              </h2>
+              <div className="w-20 h-1 bg-orange-500 mb-8"></div>
+              <div className="space-y-4 text-gray-700 text-base leading-relaxed w-full">
+                <p className="w-full">
+                  {t('restoreStrengthDescription1')}
+                </p>
+                <p className="w-full">
+                  {t('restoreStrengthDescription2')}
+                </p>
+              </div>
               </div>
               
               {/* Bottom Section - A Fence Like New Starts Here */}
@@ -62,7 +62,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-6 text-center">
-                  A FENCE LIKE NEW STARTS HERE!
+                  {t('fenceLikeNewTitle')}
                 </h3>
                 <div className="text-center">
                   <button className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-lg font-medium text-sm hover:bg-white hover:text-black transition-colors">
@@ -88,7 +88,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-semibold text-gray-800 text-center mb-16">
-            CHOOSING OUR TEAM MEANS CHOOSING:
+            {t('choosingTeamTitle')}
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,7 +100,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                Exceptional execution speed thanks to our state-of-the-art equipment.
+                {t('executionSpeed')}
               </h3>
             </div>
 
@@ -112,7 +112,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                A team of experts with years of experience.
+                {t('expertTeam')}
               </h3>
             </div>
 
@@ -125,7 +125,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                An organized structure for maximum efficiency.
+                {t('organizedStructure')}
               </h3>
             </div>
 
@@ -137,7 +137,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                Fast delivery, for uncompromising satisfaction.
+                {t('fastDelivery')}
               </h3>
             </div>
 
@@ -149,7 +149,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-gray-800">
-                A 15-year guarantee on the materials we use.
+                {t('fifteenYearGuarantee')}
               </h3>
             </div>
 
@@ -178,14 +178,14 @@ const FenceStraighteningAndRepair: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <h2 className="text-4xl font-semibold mb-8">
-                A fence like new, unrivaled service
+                {t('unrivaledServiceTitle')}
               </h2>
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  At Clôture Plante, we transform and revitalize fences in Ottawa and Gatineau, bringing speed and expertise to every project. Imagine your fence, straightened and restored, looking like new, defying time and the elements.
+                  {t('unrivaledServiceDescription1')}
                 </p>
                 <p>
-                  Choose excellence and rediscover the beauty and security of your outdoor space.
+                  {t('unrivaledServiceDescription2')}
                 </p>
               </div>
             </div>
@@ -237,7 +237,7 @@ const FenceStraighteningAndRepair: React.FC = () => {
 
           <div className="text-center mb-8">
             <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-              Don't let a damaged fence ruin your landscape. Get a free quote!
+              {t('galleryMessage')}
             </h2>
           </div>
 
